@@ -28,11 +28,49 @@
             color: #244488;
             letter-spacing: 1px;
         }
+        .lessons-title {
+            margin-top: 24px;
+            font-size: 1.2em;
+            color: #226688;
+        }
+        .lessons {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 12px;
+            margin-top: 18px;
+            margin-bottom: 1em;
+        }
+        .lessons a {
+            display: block;
+            padding: 8px 4px;
+            font-size: 1em; /* أقل من h1 */
+            background: #eef3fa;
+            border-radius: 6px;
+            color: #485885;
+            text-decoration: none;
+            border: 1px solid #dbe3f2;
+            transition: background 0.2s;
+        }
+        .lessons a:hover {
+            background: #dbe3f2;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Welcome to my Websit</h1>
+        <div class="lessons-title">دروس الصف السادس</div>
+        <div class="lessons">
+            <a href="#">الدرس الأول</a>
+            <a href="#">الدرس الثاني</a>
+            <a href="#">الدرس الثالث</a>
+            <a href="#">الدرس الرابع</a>
+            <a href="#">الدرس الخامس</a>
+            <a href="#">الدرس السادس</a>
+            <a href="#">الدرس السابع</a>
+            <a href="#">الدرس الثامن</a>
+            <!-- المزيد حسب الحاجة -->
+        </div>
     </div>
 </body>
 </html>
